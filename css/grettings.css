@@ -1,24 +1,44 @@
 .grettings {
-
+margin-top: 67px;
 }
 .grettings__desc {
-
+    display: flex;
 }
 .grettings__content {
+display: flex;
+flex-direction: column;
 
 }
 .grettings__title {
-
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 125%;
+    color: #202336;
+    margin-bottom: 69px;
 }
 .grettings__text {
-
+    font-weight: 600;
+    font-size: 22px;
+    color: #202336;
+    margin-bottom: 40px;
 }
 .line {
-
+    border-radius: 4px;
+    width: 32px;
+    height: 2px;
+    background-color: black;
 }
-.grettings__btn {
-
+.grettings__btn button{
+    border-radius: 8px;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 15px;
+    color: #fff;
+    border: 2px solid #fb8f1d;
+    background-color: #fb8f1d;
+    padding: 8px 36px;
+    margin-top: 6px;
 }
 .grettings__block-img {
-
+margin-left: 300px;
 }
