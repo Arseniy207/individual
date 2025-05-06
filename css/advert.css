@@ -3,14 +3,16 @@ margin-top: 75px;
 }
 
 .advert__content {
- 
+
 }
 .advert__title {
+    font-family: var(--fontplay);
     font-weight: 700;
     font-size: 36px;
     color: #000;
 }
 .advert__nav-text {
+    font-family: var(--fontint);
     font-weight: 600;
     font-size: 17px;
     color: #fb8f1d;
@@ -19,6 +21,8 @@ margin-top: 75px;
     display: flex;
  column-gap: 25px;
  margin-top: 124px;
+ justify-content: center;
+
 }
 .advert__item {
 
@@ -27,6 +31,7 @@ margin-top: 75px;
 .advert__main-title{
     display: flex;
     column-gap: 720px;
+    justify-content: center;
 }
 
 .advert__item img{

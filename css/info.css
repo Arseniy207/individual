@@ -17,6 +17,7 @@ max-width: 450px;
 justify-content: center;
 }
 .info__title {
+    font-family: var(--fontplay);
     font-weight: 700;
     font-size: 36px;
     line-height: 139%;
@@ -24,6 +25,7 @@ justify-content: center;
     margin-bottom: 19px;
 }
 .info__text {
+    font-family: var(--fontM);
     font-weight: 300;
     font-size: 17px;
     line-height: 176%;
@@ -31,6 +33,7 @@ justify-content: center;
     margin-bottom: 31px;
 }
 .info__btn button{
+    font-family: var(--fontint);
     border-radius: 8px;
     font-family: var(--font-family);
     font-weight: 500;

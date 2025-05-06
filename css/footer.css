@@ -1,29 +1,55 @@
 .footer {
-
+margin-top: 137px;
+background: #f9f9fb;
+padding-top: 47px;
 }
-.container {
 
-}
 .footer__block-text {
 
 }
 .footer__text {
-
+    font-family: var(--fontM);
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 156%;
+    color: #848484;
+    margin-top: 23px;
 }
 .footer__text-info {
-
+    font-family: var(--fontM);
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 165%;
+    color: #848484;
+    margin-top: 60px;
 }
 .footer__list {
-
+gap: 50px;
 }
 .footer__item {
-
+    font-family: var(--fontM);
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 211%;
+    color: #848484;
 }
 .footer__line {
-    width: 1219px;
-    height: 0px;
-    background-color: #c4c4c4;
+
 }
 .footer__img {
+border-top: 2px solid #c4c4c4;
+text-align: center;
+padding-top: 30px;
+margin-bottom: 32px;
 
+}
+
+.footer__content{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__item:first-child{
+color: #000;
+font-family: var(--fontM);
 }
