@@ -32,6 +32,7 @@ border: 2px solid orange;
 border-radius: 10px;
 padding: 13px 46px;
 background-color: transparent;
+cursor: pointer;
 
 }
 .nav__btn-2 {
@@ -43,6 +44,7 @@ background-color: transparent;
     border: 2px solid #fb8f1d;
     background-color: #fb8f1d;
     padding: 8px 36px;
+    cursor: pointer;
 }
 
 .nav__item:first-child a{
@@ -52,3 +54,28 @@ font-size: 16px;
 color: #202336;
 }
 
+.burger {
+display: none;
+flex-direction: column;
+row-gap: 5px;
+align-items: end;
+margin: 20px 20px;
+}
+.burger__line {
+ width: 47px;
+height: 5px;
+    border-radius: 4px;
+    background-color: orange;
+}
+
+@media(max-width:750px){
+        
+    .nav__list{
+        display: none;
+    }
+
+    .burger{
+        display: flex;
+        cursor: pointer;
+    }
+}

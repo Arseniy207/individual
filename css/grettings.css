@@ -16,6 +16,7 @@ flex-direction: column;
     line-height: 125%;
     color: #202336;
     margin-bottom: 69px;
+    margin-right: 197px;
 }
 .grettings__text {
     font-family: var(--fontint);
@@ -42,5 +43,13 @@ flex-direction: column;
     margin-top: 6px;
 }
 .grettings__block-img {
-margin-left: 300px;
+
 }
+
+
+@media(max-width:750px){
+    .grettings__desc{
+        flex-direction: column;
+    }
+}
+
