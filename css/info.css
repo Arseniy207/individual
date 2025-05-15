@@ -45,3 +45,15 @@ justify-content: center;
     margin-top: 6px;
 }
 
+@media(max-width:750px){
+    .info__content{
+        flex-direction: column;
+    }
+    .info__block-text{
+        order: 0;
+    }
+    .info__block-img{
+        order: 2;
+    }
+}
+

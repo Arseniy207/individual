@@ -53,3 +53,9 @@ margin-bottom: 32px;
 color: #000;
 font-family: var(--fontM);
 }
+
+@media(max-width:750px){
+    .footer__list{
+        display: none;
+    }
+}

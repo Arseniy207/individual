@@ -30,10 +30,23 @@ margin-top: 75px;
 
 .advert__main-title{
     display: flex;
-    column-gap: 720px;
-    justify-content: center;
+    justify-content: space-between;
 }
 
 .advert__item img{
  
+}
+
+
+@media(max-width:800px){
+    .advert__list{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .advert__main-title{
+          column-gap: 100px;
+          text-wrap: wrap;
+    }
+    
 }
