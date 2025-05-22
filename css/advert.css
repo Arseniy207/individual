@@ -16,6 +16,7 @@ margin-top: 75px;
     font-weight: 600;
     font-size: 17px;
     color: #fb8f1d;
+    text-wrap: nowrap;
 }
 .advert__list {
     display: flex;
@@ -31,6 +32,7 @@ margin-top: 75px;
 .advert__main-title{
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .advert__item img{
@@ -44,9 +46,6 @@ margin-top: 75px;
         flex-direction: column;
         align-items: center;
     }
-    .advert__main-title{
-          column-gap: 100px;
-          text-wrap: wrap;
-    }
+
     
 }
